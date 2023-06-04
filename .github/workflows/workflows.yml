@@ -18,3 +18,4 @@ jobs:
             azure-devops-project-url: https://dev.azure.com/infrasystdev01/AgileProject1
             azure-pipeline-name: 'webapp1'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
+            echo: ${{ secrets.AZURE_DEVOPS_TOKEN }}
